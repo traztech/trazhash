@@ -2,7 +2,7 @@ import hashlib
 import platform
 import socket
 
-__version__ = '0.1.0'
+__version__ = '0.1.3'
 
 class FileReadError(Exception):
     """
