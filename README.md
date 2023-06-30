@@ -2,13 +2,13 @@
 
 ## Description
 
-TrazHash is a Python library designed to hash data strings or file contents using a combination of your system's specific values and cryptographic hash functions. By incorporating system-specific values such as the system name, node name, release, version, machine, processor, and hostname into the hashing process, the library produces hashes that are tied to the particular system on which the hashing was performed. This can be useful for generating unique identifiers, checksums, or verifying the integrity and origin of data.
+TrazHash is a Python library designed to hash data strings, called a System-Dependent Hash, or a SDHASH, or file contents using a combination of your system's specific values and cryptographic hash functions. By incorporating system-specific values such as the system name, node name, release, version, machine, processor, and hostname into the hashing process, the library produces hashes that are tied to the particular system on which the hashing was performed. This can be useful for generating unique identifiers, checksums, or verifying the integrity and origin of data.
 
 The library supports multiple levels of hashing (e.g., hash inside another hash) and allows users to specify the desired cryptographic hash functions (e.g., SHA256, SHA512) for each level.
 
 TrazHash is easy to use, highly configurable, and can be integrated into various Python projects including security applications, data verification tools, and more.
 
-![TrazHash](TRAZHASH.png)
+![TrazHash](https://github.com/traztech/trazhash/raw/main/TRAZHASH.png)
 
 ## Features
 
